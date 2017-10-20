@@ -1,0 +1,15 @@
+<form ng-submit="$ctrl.logInUser()">
+  <input type="text"
+         placeholder="Type in: 00437"
+         required
+         ng-model="$ctrl.credentials.username">
+
+  <input type="password"
+         placeholder="Type in: bedsheets"
+         required
+         ng-model="$ctrl.credentials.password">
+
+  <button type="submit">
+    Log into profile
+  </button>
+</form>
