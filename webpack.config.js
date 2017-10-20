@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
-  watch: true,
+  watch: false,
   cache: true,
   devtool: '#cheap-module-eval-source-map',
   context: __dirname,
